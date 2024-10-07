@@ -26,7 +26,7 @@ const router = useRouter()
 const route = useRoute()
 
 const username = ref('')
-const pasword = ('')
+const password = ('')
 
 const logUserIn = async () => {
    if (await login(username.value, password.value)) {

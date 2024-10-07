@@ -6,7 +6,8 @@ import LoginPage from './views/LoginPage.vue'
 import SettingsPage from './views/SettingsPage.vue'
 
 import { useAuth } from './composables/useAuth'
-import { query } from 'firebase/firestore'
+//import { query } from 'firebase/firestore'
+
 const {isAuthenticated} = useAuth()
 const routes = [
   { path: '/', name: 'Home', component: HomePage },
